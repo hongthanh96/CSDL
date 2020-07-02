@@ -1,0 +1,23 @@
+*{
+    font-size: 14px; 
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    padding: 0 10px;
+}
+li a:hover{
+    color: brown;
+}
+table{
+    border: black 1px solid;
+    border-collapse: collapse;
+}
+tr,td{
+    border: black 1px solid;
+}
+td{
+    padding: 5px 5px;
+}
