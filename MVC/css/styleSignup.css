@@ -1,0 +1,89 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+} */
+.signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height:30px;
+    margin: 0;
+    font-size: 1.3vw;
+    padding: 3% 0;
+}
+.container-signup{
+    border-radius: 3px;
+    border: 10px solid rgb(150, 147, 145);
+    background-color: rgb(226, 221, 221);
+    width: 350px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+    text-align: center;
+    box-shadow: gray 0 5px 5px 5px;
+}
+.container-signup img{
+    width: 80%;
+    height: auto;
+}
+.container-signup button{
+    width: 90%;
+    height: 30px;
+    margin-top: 10px;
+    color: rgb(241, 227, 227);
+    font-weight: 600;
+    background-color: rgb(99, 219, 193);
+    border: transparent;
+}
+.container-signup button:hover{
+    background-color: rgb(122, 124, 116);
+}
+.input-Signup{
+    /* text-align: center; */
+    width: 100%;
+    padding: 5px 0; 
+}
+.input-Signup i{
+    padding-right: 2%;
+    font-size: 25px;
+    color: rgb(83, 81, 81);
+}
+.input-Signup input{
+    width: 80%;
+    height: 30px;
+    border: transparent;
+}
+#freshfood{
+    margin-top: -10%;
+    padding-bottom: 5%;
+    font-weight: 500;
+    font-size: 13px;
+}
+.ready{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    font-size: 13px;
+}
+.ready a{
+    color: rgb(82, 177, 156);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+.ready a:hover{
+    color: tomato;
+    font-weight: 700;
+}
+@media (max-width: 350px){
+    .container-signup{
+        width: 100%;
+    }
+    .ready{
+        font-size: 11px;
+    }
+    #freshfood{
+        font-size: 11px;
+    }
+}

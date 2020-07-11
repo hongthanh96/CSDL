@@ -1,0 +1,91 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+} */
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height:30px;
+    margin: 0;
+    font-size: 1.3vw;
+    padding: 3% 0;
+}
+.container-login{
+    border-radius: 3px;
+    border: 10px solid rgb(150, 147, 145);
+    background-color: rgb(226, 221, 221);
+    width: 350px;
+    height: 400px;
+    box-shadow: 0 5px 5px 5px rgba(0,0,0,0.3);
+    text-align: center;
+    box-shadow: gray 0 5px 5px 5px;
+
+}
+.container-login img{
+    width: 80%;
+    height: auto;
+}
+.container-login button{
+    width: 90%;
+    height: 30px;
+    margin-top: 10px;
+    color: rgb(241, 227, 227);
+    font-weight: 600;
+    background-color: rgb(99, 219, 193);
+    border: transparent;
+}
+.container-login button:hover{
+    background-color: rgb(122, 124, 116);
+}
+.input-login{
+    /* text-align: center; */
+    width: 100%;
+    padding: 4% 0; 
+}
+.input-login i{
+    padding-right: 2%;
+    font-size: 25px;
+    color: rgb(83, 81, 81);
+}
+.input-login input{
+    width: 80%;
+    height: 30px;
+    border: transparent;
+}
+#freshfood{
+    margin-top: -10%;
+    padding-bottom: 5%;
+    font-weight: 500;
+    font-size: 13px;
+}
+.ready-login{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    font-size: 13px;
+}
+.ready-login a{
+    color: rgb(82, 177, 156);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+.ready-login a:hover{
+    color: tomato;
+    font-weight: 700;
+}
+@media (max-width: 350px){
+    .container-login{
+        width: 100%;
+    }
+    .ready-login{
+        font-size: 11px;
+    }
+    #freshfood{
+        font-size: 11px;
+    }
+}

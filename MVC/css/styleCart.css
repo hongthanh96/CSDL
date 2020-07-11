@@ -1,0 +1,125 @@
+.cart{
+    padding: 5% 0;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    
+}
+.cart form{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.cart h1{
+    padding-bottom: 3%;
+    color: rgb(189, 11, 11);
+}
+#table-cart {
+   
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #table-cart td, #table-cart th {
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+
+  #table-cart i{
+      color: red;
+      font-size: 20px;
+  }
+  
+  #table-cart tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #table-cart tr:hover {background-color: #ddd;}
+  
+  #table-cart th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #245226;
+    color: white;
+  }
+
+.tr-sum{
+    height: 50px;
+    text-align: center;
+    color: red;
+}
+.td-sum{
+    text-align: center;
+    color: red;
+    font-weight: 700;
+}
+.td-price{
+    text-align: left;
+    color: red;
+    font-weight: 600;
+}
+
+.td-img img{
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    
+}
+#cart-input{
+    width: 50px;
+    height: 30px;
+    text-align: center;
+}
+.router{
+    display: flex;
+    width: 100%;
+    padding: 2% 2%;
+}
+.router-left{
+    width: 50%;
+  
+}
+.router-left a{
+    color: red;
+    font-weight: 700;
+}
+.router-right{
+    width: 50%;
+    text-align: right;
+}
+.router-right a{
+    text-decoration: none;
+    padding-right: 3%;
+}
+#delete{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(211, 55, 55);
+    border: transparent;
+  
+    font-weight: 500;
+}
+#delete a{
+    color: white;
+}
+#update{
+    width: 100px;
+    height: 30px;
+    background-color: #4CAF50;
+    border: transparent;
+    color: white;
+    font-weight: 500;
+}
+.order{
+    text-align: center;
+    padding-top: 1%;
+}
+.order button{
+    width: 150px;
+    height: 50px;
+    background-color: #4CAF50;
+    border: transparent;
+    color: white;
+    font-weight: 700;
+}
+.order button:hover{
+    background-color: grey;
+   
+}
