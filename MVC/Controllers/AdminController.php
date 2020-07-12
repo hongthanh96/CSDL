@@ -13,6 +13,16 @@ class AdminController extends BaseController
         $this->loadModel('ProductModel');
         $this->productModel = new ProductModel;
     }
+
+    public function index(){
+        $products = $this->productModel->getAll();
+        $categories = $this->categoryModel->getAll();
+        $this->view('frontend.admin.index',[
+            'categories' =>$categories,
+            'products' => $products,
+        ]);
+  }
+
     public function adminProduct()
     {
         $products = $this->productModel->getAll();

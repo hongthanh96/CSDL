@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="../css/styleSignup.css">
     <link rel="stylesheet" href="../css/styleLogin.css">
     <link rel="stylesheet" href="../css/styleCart.css">
+    <link rel="stylesheet" href="../css/styleFooter.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
@@ -44,7 +45,7 @@
                 </form>
             </div>
             <div class="search-right">
-                <?php if (isset($_SESSION["user"])) : ?>
+                <?php if ((isset($_SESSION["user"])) && ($_SESSION["user"] !== '')) : ?>
                     <div class="logout"><a href="../index.php?controller=login&action=logout">Log out</a></div>
                     <div class="icon-search icon-user"><a href="#"><i class="fas fa-heart"></i></a></div>
                 <?php else : ?>
@@ -79,7 +80,7 @@
         </div>
 
         <div class="list">
-            <div class="menu dropdown"><a href="../index.php?controller=homepage">TRANG CHỦ </a></div>
+            <div class="menu"><a href="../index.php?controller=homepage">TRANG CHỦ </a></div>
             <!-- <div class="menu dropdown1">SẢN PHẨM <i class="fas fa-caret-down"></i>
                 <div class="dropdown-content">
                     <?php foreach ($products as $krey => $product) : ?>
@@ -90,7 +91,7 @@
                 </div>
             </div> -->
 
-            <div class="menu dropdown"><a href="#">GIỚI THIỆU </a></div>
+            <div class="menu"><a href="#">GIỚI THIỆU </a></div>
             <div class="menu dropdown1">SẢN PHẨM <i class="fas fa-caret-down"></i>
                 <div class="dropdown-content">
                     <?php foreach ($categories as $category) : ?>
@@ -98,15 +99,11 @@
                     <?php endforeach; ?>
                 </div>
             </div>
-            <div class="menu dropdown"><a href="#">HƯỚNG DẪN</a></div>
-            <div class="menu dropdown"><a href="#">TIN TỨC </a></div>
-            <div class="menu dropdown"><a href="#">BLOG </a></div>
+            <div class="menu "><a href="#">HƯỚNG DẪN</a></div>
+            <div class="menu "><a href="#">TIN TỨC </a></div>
+            <div class="menu "><a href="#">BLOG </a></div>
 
-            <div class="menu dropdown"><a href="#">LIÊN HỆ </a></div>
-            <!-- <div class="menu dropdown">REUSABLE <i class="fas fa-caret-down"></i></div>
-        <div class="menu dropdown">GIFTS & HOME <i class="fas fa-caret-down"></i></div>
-        <div class="menu dropdown">SALE <i class="fas fa-caret-down"></i></div>
-        <div class="menu dropdown">BRANDS <i class="fas fa-caret-down"></i></div> -->
+            <div class="menu "><a href="#">LIÊN HỆ </a></div>
         </div>
     </div>
     <script src="https://kit.fontawesome.com/607b7b9d04.js" crossorigin="anonymous"></script>

@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/styleFooter.css">
-</head>
-
-<body>
     <div class="footer">
         <div class="footer-left">
             <div class="footer-left1">
@@ -51,7 +41,3 @@
 
     </div>
     <script src="https://kit.fontawesome.com/607b7b9d04.js" crossorigin="anonymous"></script>
-
-</body>
-
-</html>

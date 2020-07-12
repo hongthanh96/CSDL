@@ -114,7 +114,7 @@ class ProductController extends BaseController
     {
         $ID = $_GET['id'] ?? null;
         $categories = $this->categoryModel->getAll(['type_ID','type_name']);
-        $products = $this->productModel->getAll(['food_ID', 'image', 'name', 'weight', 'price']);
+        $products = $this->productModel->getAll();
 
         $productsFind = $this->productModel->findById($ID);
         $this->view('frontend.products.show', [
@@ -122,7 +122,7 @@ class ProductController extends BaseController
             'categories'=> $categories,
             'products' => $products,
         ]);
-        header('location:index.php?controller=product');
+        // header('location:index.php?controller=product');
     }
    
 }

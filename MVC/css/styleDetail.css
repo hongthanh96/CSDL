@@ -1,0 +1,72 @@
+.w3-container{
+    padding: 5%;
+}
+.detail{
+    display: flex;
+    margin: 2% 0;
+
+}
+.detail_left{
+    width: 30%;
+    /* margin-right: 10%; */
+}
+.detail_between{
+    width: 30%;
+    margin-left: 3%;
+}
+.w3-content{
+    margin: 0 2% !important;
+}
+.detail_between h2{
+    color: rgb(226, 224, 224);
+    font-weight: 600;
+    background-color: rgb(168, 151, 151); 
+    text-align: center;
+}
+.detail_between span{
+    color: red;
+    font-weight: 700;
+}
+.detail_between p{
+    line-height: 2vw;
+}
+#mota{
+    padding: 3% 0;
+}
+.detail_button{
+   margin-top: 7%;
+}
+.detail_button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.button_cart{
+    background-color: seagreen;
+    border: transparent;
+    padding: 2% 3%;
+    border-radius: 5px;
+    box-shadow: 0 3px 3px 3px gray;
+}
+.button_buy{
+    float: right;
+    border: transparent;
+    background-color: rgb(245, 78, 78);
+    padding: 2% 3%;
+    border-radius: 5px;
+    box-shadow: 0 3px 3px 3px gray;
+}
+.button_cart:hover, .button_buy:hover{
+    background-color: rgb(36, 189, 16);
+}
+
+.detail_right{
+    margin-left: 10%;
+    text-align: center;
+}
+.detail_right p{
+    padding-top: 7px;
+}
+.big, .plane,.headphone{
+    padding-top: 30px;
+}
